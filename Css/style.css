@@ -1,0 +1,67 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #e0e0e0;
+}
+
+
+section.orderPizza
+{
+    width: 60%;
+    margin: auto;
+}
+
+section.orderPizza form >div > h2
+{
+    background-color: #67b2fd;
+    color: #fff;
+    padding: 5px;
+}
+form#pizzaForm
+{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 2em 0 0 0;
+}
+
+div.toppings 
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+ 
+div.cart >div> div
+{
+    padding: 7px;
+}
+
+div.cart > div > div > div
+{
+    display: flex;
+    flex-direction: column;
+}
+div.cart > div > h2
+{
+    background-color: #67b2fd;
+    color: #fff;
+}
+#submitOrderBtn
+{
+    background-color: #67b2fd;
+    color: #fff;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div.pizzaOutput
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 1em;
+}
